@@ -301,9 +301,7 @@ footer {
     .header-container {
         flex-direction: column;
         text-align: center;
-    }
-    .logo {
-        margin-left: 400;
+        align-items: center;
     }
     
     nav ul {
@@ -326,4 +324,5 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 
