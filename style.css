@@ -302,6 +302,9 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    .logo {
+        margin-left: 400;
+    }
     
     nav ul {
         margin-top: 15px;
@@ -323,3 +326,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
