@@ -20,6 +20,13 @@ body {
 
 section {
     padding: 60px 0;
+    scroll-margin-top: 80px;
+}
+
+table td {
+  text-align: left; 
+  padding: 8px;       
+  
 }
 
 h1, h2, h3, h4 {
@@ -33,7 +40,7 @@ p {
 
 .btn {
     display: inline-block;
-    background: #e74c3c;
+    background: #d0c833;
     color: white;
     padding: 12px 25px;
     border-radius: 5px;
@@ -43,7 +50,7 @@ p {
 }
 
 .btn:hover {
-    background: #c0392b;
+    background: #c0bb2b;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -165,17 +172,16 @@ nav ul li a:hover {
     gap: 50px;
     align-items: center;
 }
-.about-text {
-    margin-top: -420px;
-}
 
 .about-image {
+    height: 450px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.about-image img {
+.about-image img { 
+    margin-top: -150px;
     width: 100%;
     height: auto;
     display: block;
@@ -264,6 +270,12 @@ nav ul li a:hover {
     background: #c0392b;
 }
 
+iframe {
+width: 80%;
+height: 100%;
+border: none;
+}
+
 footer {
     background: #1a252f;
     color: white;
@@ -312,6 +324,9 @@ footer {
         justify-content: center;
         margin-bottom: 15px;
     }
+    section {
+    scroll-margin-top: 130px;
+}
     
     nav ul {
         margin-top: 15px;
